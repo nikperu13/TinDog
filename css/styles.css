@@ -1,0 +1,193 @@
+
+/* Elements */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+footer{
+    background-color: white;
+    
+    padding: 7% 7% 5% 7%;
+}
+p{
+    color: #8f8f8f;
+}
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+/* Sections */
+
+.white-section{
+    background-color: white;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+/* Heading */
+#title{
+    text-align: left; 
+}
+
+#title .container-fluid{
+   padding-top: 3%;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+   
+}
+
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+/* Download Buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+
+}
+/* features */
+#features{
+    
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature{
+    /* adding padding makes the lines "shorter" */
+    padding: 5%;
+}
+.feature p{
+    color: grey;
+}
+
+.feature-icon{
+    color: #ef8172;
+    padding: 5%;
+    /* The following can also be used... font-awesome
+    has other classes that will change the size as well!!
+     font-size: 75px; */
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    background: #ef8172;
+    
+}
+.testimonial-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    border-radius: 50%;
+    width: 15%;
+    margin: 20px;
+}
+
+#press{
+    background: #ef8172;
+    
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    
+}
+.pricing-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-subheading{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+   
+
+}
+.cta-subheading{
+    color:white;
+    line-height: 1.5;  
+    font-size: 3rem;
+    
+    
+}
+.cta-btn{
+    margin: 30px 10px;
+}
+
+/* Footer */
+
+.foot-icon{
+    margin: 20px 10px;
+    color: black;
+}
+
+/* Screen size breakpoint */
+
+@media (max-width: 990px){
+
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+
+}
